@@ -21,14 +21,23 @@ The project follows a **layered architecture**, separating responsibilities clea
 
 src/main/java/com/arcenio/usermanagement
 │
+
 ├── controller     → REST controllers (API layer)
+
 ├── service        → Business logic
+
 ├── repository     → Data access layer (JPA)
+
 ├── dto            → Data Transfer Objects
+
 ├── entity         → JPA entities
+
 ├── exception      → Global exception handling
+
 ├── config         → Configuration classes
+
 └── UserManagementApplication.java
+
 
 ✔️ This structure improves readability, testability, and scalability  
 ✔️ Commonly used in real company projects
